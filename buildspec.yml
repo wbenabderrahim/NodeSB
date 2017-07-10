@@ -9,6 +9,7 @@ phases:
     commands:
       - echo Installing source NPM dependencies...
       - npm install 
+      - chmod 0777 ./node_modules/.bin/jasmine-node
   build:
     commands:
       - echo Build started on `date`
