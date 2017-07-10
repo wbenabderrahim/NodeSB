@@ -1,0 +1,22 @@
+version: 0.1
+
+phases:
+  install:
+    commands:
+      - echo Installing Jasmine...
+      - npm install -g jasmine
+  pre_build:
+    commands:
+      - echo Installing source NPM dependencies...
+      - npm install 
+  build:
+    commands:
+      - echo Build started on `date`
+      - echo Compiling the Node.js code
+      - npm test spec/page1-spec.js
+  post_build:
+    commands:
+      - echo Build completed on `date`
+artifacts:
+  files:
+    - spec/page1-spec.js
