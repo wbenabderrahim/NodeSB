@@ -13,7 +13,7 @@ describe("test1", function() {
 
     it("test2", function(done) {
       request.get(base_url, function(error, response, body) {
-        expect(body).toContain("Welcome  yacine to your app");
+        expect(body).toContain("Welcome to your app");
         done();
  
 
