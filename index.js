@@ -8,7 +8,7 @@ app.set('view engine','ejs');
 app.set('views',__dirname+'/views');
 app.use('/', router)
 
-app.listen("3000",function(){
+var server = app.listen("3000",function(){
     console.log('running on port 3000');
     setTimeout(function () {
             server.close();
