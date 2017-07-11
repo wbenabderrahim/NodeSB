@@ -14,5 +14,4 @@ app.listen("3000",function(){
             server.close();
         }, 3000)
 });
-});
 module.exports = app ;
