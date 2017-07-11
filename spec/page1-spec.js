@@ -15,6 +15,9 @@ describe("test1", function() {
       request.get(base_url, function(error, response, body) {
         expect(body).toContain("Welcome to your app");
         done();
+         
+            helloWorld.close();
+
       });
     });
   });
