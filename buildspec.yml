@@ -14,11 +14,10 @@ phases:
     commands:
       - echo Build started on `date`
       - echo Compiling the Node.js code
-      - npm test spec/*
-      - exit 
   post_build:
     commands:
       - echo Build completed on `date`
+      - npm test spec/*
 artifacts:
   files:
      - spec/*
