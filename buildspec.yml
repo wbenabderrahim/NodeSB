@@ -20,5 +20,4 @@ phases:
       - npm test spec/*
 artifacts:
   files:
-    - appspec.yml
-    - nodejsbacem.zip
+    - '**/*'
