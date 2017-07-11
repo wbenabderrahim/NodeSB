@@ -21,4 +21,5 @@ phases:
       - echo Build completed on `date`
 artifacts:
   files:
-    - spec/page1-spec.js
+     - appspec.yml
+    
