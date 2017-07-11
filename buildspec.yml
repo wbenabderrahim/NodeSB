@@ -20,6 +20,5 @@ phases:
       - npm test spec/*
 artifacts:
   files:
-     - spec/*
-    
+     - appspec.yml
     
