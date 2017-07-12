@@ -11,6 +11,10 @@ permissions:
     group: ec2-user
 
 hooks:
+  ApplicationStop:
+    - location: bin/app-stop
+      timeout: 10
+      runas: ec2-user
   AfterInstall:
     - location: installPack.sh
       timeout: 1200
