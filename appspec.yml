@@ -17,13 +17,13 @@ ApplicationStop:
      runas: ec2-user
 
 AfterInstall:
-   - location: bin/install-pkgs
+   - location: installPack.sh
      timeout: 1200
      runas: ec2-user
 
 ApplicationStart:
-   - location: bin/app-start
-     timeout: 60
+   - location: app-start.sh
+     timeout: 160
      runas: ec2-user
 
 ValidateService:
