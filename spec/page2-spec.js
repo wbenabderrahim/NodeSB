@@ -14,7 +14,7 @@ describe("test3", function() {
     it("test4", function(done) {
       request.get(base_url, function(error, response, body) {
         expect(body).toContain("Second");
-       //  helloWorld.fun() ;
+      setTimeout( helloWorld.fun ,3000);
         done();
       });
     });
