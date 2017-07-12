@@ -7,10 +7,10 @@ var app= express();
 app.set('view engine','ejs');
 app.set('views',__dirname+'/views');
 app.use('/', router)
-setTimeout(function () {
+
  app.listen("3000",function(){
     console.log('running on port 3000'); 
-   
+   setTimeout(function () {  app.close();}, 3000)
       
-});  }, 3000)
+}); 
 module.exports = app ;
