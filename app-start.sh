@@ -2,4 +2,4 @@
 
 set -e
 
-node my-app/index.js
+node /home/ec2-user/my-app/index.js
