@@ -11,6 +11,6 @@ app.use('/', router)
  app.listen("3000",function(){
     console.log('running on port 3000'); 
    setTimeout(function () {
-        }, 13000)
+        }, 3000)
 });
 module.exports = app ;
