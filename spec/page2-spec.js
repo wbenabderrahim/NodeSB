@@ -18,8 +18,5 @@ describe("test3", function() {
       });
     });
   });
-helloWorld.close(function() {
-    console.log('We closed!');
-    process.exit();
 });
-});
+
