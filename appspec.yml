@@ -15,6 +15,7 @@ hooks:
     - location: bin/app-stop
       timeout: 10
       runas: ec2-user
+      
   AfterInstall:
     - location: installPack.sh
       timeout: 1200
