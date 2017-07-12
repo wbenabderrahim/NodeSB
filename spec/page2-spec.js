@@ -13,7 +13,7 @@ describe("test3", function() {
 
     it("test4", function(done) {
       request.get(base_url, function(error, response, body) {
-        expect(body).toContain("Second");
+        expect(body).toContain("Sehhhcond");
       setTimeout( helloWorld.fun ,3000);
         done();
       });
