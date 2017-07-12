@@ -12,7 +12,7 @@ permissions:
 
 hooks:
 ApplicationStop:
-   - location: bin/app-stop
+   - location: bin/ap
      timeout: 10
      runas: ec2-user
 
