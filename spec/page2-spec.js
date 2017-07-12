@@ -18,4 +18,8 @@ describe("test3", function() {
       });
     });
   });
+  server.close(function() {
+    console.log('We closed!');
+    process.exit();
+});
 });
