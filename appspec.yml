@@ -23,7 +23,7 @@ hooks:
 
   ApplicationStart:
     - location: app-start.sh
-      timeout: 300
+      timeout: 100
       runas: ec2-user
  
   ValidateService:
