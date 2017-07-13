@@ -27,6 +27,6 @@ hooks:
       runas: ec2-user
  
   ValidateService:
-    - location: bin/app-validate
+    - location: app-validate
       timeout: 10
       runas: ec2-user
