@@ -5,6 +5,7 @@ phases:
     commands:
       - echo Installing Jasmine...
       - npm install -g jasmine
+      - npm install cheerio
   pre_build:
     commands:
       - echo Installing source NPM dependencies...
