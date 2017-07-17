@@ -13,7 +13,9 @@ describe("test1", function() {
 
     it("test2", function(done) {
       request.get(base_url, function(error, response, body) {
-        expect(body).toContain("Welcome to your app");
+       var $page = cheerio.load(body),
+    text = $page("body").text();
+   expect(text).toContain("Welcome to your app");
         done();
  
 
