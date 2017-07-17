@@ -18,7 +18,8 @@ phases:
   post_build:
     commands:
       - echo Build completed on `date`
-      - npm test spec/*
+      - npm test spec/page1-spec.js
+      - npm test spec/page2-spec.js
 artifacts:
   files:
     - '**/*'
