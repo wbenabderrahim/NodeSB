@@ -18,7 +18,7 @@ describe("test3", function() {
         var text1 = $page1("body").text();
          text1 = text1.replace(/\s+/g, "")
           expect(text1).toBe("Second");
-   setTimeout(helloWorld.fun, 3000); 
+   setTimeout( helloWorld.fun, 4000); 
         done();
       });
     });
