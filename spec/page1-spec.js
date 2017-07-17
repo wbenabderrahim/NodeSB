@@ -1,5 +1,6 @@
 var request = require("request");
-var helloWorld = require("../index.js")
+var helloWorld = require("../index.js");
+var cheerio = require('cheerio');
 var base_url = "http://localhost:3000/"
 
 describe("test1", function() {
