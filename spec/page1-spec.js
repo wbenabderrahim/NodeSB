@@ -17,7 +17,7 @@ describe("test1", function() {
        var $page = cheerio.load(body),
     text = $page("body").text();
         text = text.replace(/\s+/g, " ") ;
-   expect(text).toContain("Welcojrfme to your app");
+   expect(text).toContain("Welcome to your app");
         done();
  
 
