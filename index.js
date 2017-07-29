@@ -9,7 +9,7 @@ app.set('views',__dirname+'/views');
 app.use('/', router)
 
  var server = app.listen("3000",function(){
-    console.log('running now on port 3000'); 
+    console.log('running  on port 3000'); 
 }); 
 
 module.exports = app ;
