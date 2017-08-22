@@ -8,8 +8,8 @@ app.set('view engine','ejs');
 app.set('views',__dirname+'/views');
 app.use('/', router)
 
- var server = app.listen("8081",function(){
-    console.log('running now on port 8081'); 
+ var server = app.listen(3000,function(){
+    console.log('running now on port 3000'); 
 }); 
 
 module.exports = app ;
