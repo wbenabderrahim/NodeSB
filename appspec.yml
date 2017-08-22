@@ -11,11 +11,7 @@ permissions:
     group: ec2-user
 
 hooks:
-  AfterInstall:
-    - location: installPack.sh
-      timeout: 1200
-      runas: ec2-user
-
+  
   ApplicationStart:
     - location: app-start.sh
       timeout: 300
